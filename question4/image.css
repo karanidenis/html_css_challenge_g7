@@ -1,0 +1,38 @@
+.profile_img{
+   border-radius: 50%;
+   height: 250px;
+   width: 250px;
+}
+
+.profile_containers{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+/* relevant styles */
+.profile_container {
+   position: relative;
+   height: 200px;
+   width: 257px;
+ }
+ 
+ .img__description {
+   position: absolute;
+   top: 10;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: rgba(29, 106, 154, 0.72);
+   color: #fff;
+   visibility: hidden;
+   opacity: 0;
+ 
+   /* transition effect. not necessary */
+   transition: opacity .2s, visibility .2s;
+ }
+ 
+ .profile_container:hover .img__description {
+   visibility: visible;
+   opacity: 1;
+ }
