@@ -8,4 +8,78 @@ a {
     width: 35%;
     height: auto;
  }
+ *{
+   margin:0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+  
+   
+}
+
+.header{
+   width: 82%;
+   height: 80px;
+   display: block;
+   background-color: #101010; 
+   padding: 0 40em;
+   
+   
+
+}
+
+.inner_header{
+   width: 1000px;
+   height: 70px;
+   display: block;
+   margin:  auto;
  
+}
+
+.logo_container{
+   height: 100%;
+   display: table;
+   float: left;
+}
+
+.logo_container h1{
+   color: white;
+   height: 100%;
+   display: table-cell;
+   vertical-align: middle;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Quicksand', sans-serif;
+   font-family: 'Raleway', sans-serif;
+   font-size: 20px;
+   font-weight: 150;
+   
+}
+.logo_container h1 span {
+   font-weight: 800;
+}
+
+
+.navigation {
+   float: right;
+   height: 100%;
+}
+
+.navigation a{
+   height: 100%;
+   display: table;
+   float: left;
+   padding: 0px 20px;
+}
+.navigation a :last-child{
+   padding: auto;
+}
+
+.navigation a li{
+   display: table-cell;
+   vertical-align: middle;
+   height: 100%;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+
+}
