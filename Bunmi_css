@@ -3,25 +3,6 @@
     margin: 0;
     box-sizing:border-box;
  }
-body {
-    background-color: rgb(19, 120, 208);
-}
-
-.container {
-    width: 40%;
-    height: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow:0 10px 20px rgb(84, 8, 8) ;
-}
-
-image{
-    height: 100%;
-    width: 100%;
- }
-   
  .content{
     position: relative;
     top: 40%;
@@ -31,3 +12,35 @@ image{
     font-family: Georgia, serif;
     text-align: center;
  }
+
+p {
+    font-size: larger;
+    font-family: Arial,;
+    margin: 10px;
+}
+
+
+li {
+    font-size: larger;
+    margin: 20px;
+    color: black;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 8px;
+}
+
+img {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+.text {
+    text-align: justify;
+    font-family: Arial;
+}
+
+h1 {
+    margin: 25px;
+}
