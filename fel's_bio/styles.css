@@ -70,6 +70,21 @@ hr{
     font-weight:400;
     font-size: 20px;
 }
+.hero-links-home{
+    width:90%;
+    background: linear-gradient(90deg, rgb(114, 1, 63) 0%, rgba(121,9,75,1) 35%, rgba(255,0,138,1) 100%);
+    line-height: 80px;
+    text-decoration: none;
+    color:#fff;
+    font-weight:400;
+    font-size: 20px;
+    padding: 30px;
+
+
+
+
+
+}
 
 .hero-links:hover{
     background: rgb(34,0,36);
