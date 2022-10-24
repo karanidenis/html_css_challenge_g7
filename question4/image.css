@@ -1,34 +1,38 @@
-.container {
-    position: relative;
-    width: 20%;
+.profile_img{
+   border-radius: 50%;
+   height: 250px;
+   width: 250px;
+}
+
+.profile_containers{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+/* relevant styles */
+.profile_container {
+   position: relative;
+   height: 200px;
+   width: 257px;
  }
- .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: 0.9s ease;
-    backface-visibility: hidden;
- }
- .container:hover .slidetext {
-    opacity: 1;
- }
- .container:hover .image {
-    opacity: .2;
- }
- .text {
-    background-color: grey;
-    font-size: 14px;
-    padding: 8px 16px;
-    color: whitesmoke;
- }
- .slidetext {
+ 
+.profile_containers {
+    width: 40%;
+    height: 40px;
     position: absolute;
-    opacity: 0;
-    transition: 0.9s ease;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+    box-shadow:0 10px 20px rgb(40, 40, 40) ;
+ }
+ 
+   /* transition effect. not necessary */
+   transition: opacity .2s, visibility .2s;
+ 
+ 
+ .profile_container:hover .img__description {
+   visibility: visible;
+   opacity: 1;
  }
